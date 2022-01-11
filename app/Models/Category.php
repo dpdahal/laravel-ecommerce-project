@@ -21,4 +21,15 @@ class Category extends Model
         'status',
         'parent_id'
     ];
+
+
+    public function getChild()
+    {
+        return $this->hasMany(Category::class, 'parent_id', 'id');
+    }
+
+    public function getParent()
+    {
+        return $this->belongsTo(Category::class, 'parent_id', 'id');
+    }
 }

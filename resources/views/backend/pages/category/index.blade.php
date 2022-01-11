@@ -28,6 +28,9 @@
                         <div class="x_content">
                             <div class="row">
                                 <div class="col-md-12">
+                                    @include('backend.layouts.message')
+                                </div>
+                                <div class="col-md-12">
                                     <table class="table">
                                         <thead>
                                         <tr>
@@ -41,14 +44,31 @@
                                         @foreach($categoryData as $key=>$category)
                                             <tr>
                                                 <td>{{++$key}}</td>
-                                                <td>{{$category->category_name}}</td>
+                                                <td>
+                                                    {{$category->category_name}}
+                                                    @if($category->getChild->count()>0)
+                                                        <br>
+                                                        <a href="{{route('get-category-child').'/'.$category->id}}">Total
+                                                            Child: {{$category->getChild->count()}} </a>
+                                                    @endif
+                                                </td>
                                                 <td>
                                                     {{$category->status}}
                                                 </td>
                                                 <td>
-                                                    <a href="">Show</a>
-                                                    <a href="">Edit</a>
-                                                    <a href="">Delete</a>
+                                                    <form action="" method="post">
+                                                        @csrf
+                                                        <a href="{{route('admin-category.show',$category->id)}}" class="btn btn-success">
+                                                            <i class="fa fa-eye"></i>
+                                                        </a>
+                                                        <a href="{{route('admin-category.edit',$category->id)}}"
+                                                           class="btn btn-primary">
+                                                            <i class="fa fa-edit"></i>
+                                                        </a>
+                                                        <button class="btn btn-danger"><i class="fa fa-trash"></i>
+                                                        </button>
+                                                    </form>
+
                                                 </td>
                                             </tr>
                                         @endforeach

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\ApplicationController;
 use App\Http\Controllers\Backend\DashboardController;
+use App\Http\Controllers\Backend\CategoryController;
 
 
 Route::group(['namespace' => 'Frontend'], function () {
@@ -18,4 +19,5 @@ Route::group(['namespace' => 'Frontend'], function () {
 Route::group(['namespace' => 'Backend', 'prefix' => 'company-backend'], function () {
     Route::any('/', [DashboardController::class, 'index'])->name('dashboard');
     Route::resource('admin-category', "\App\Http\Controllers\Backend\CategoryController");
+    Route::any('get-category-child/{cat_parent_id?}', [CategoryController::class, 'index'])->name('get-category-child');
 });

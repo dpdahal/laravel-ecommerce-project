@@ -1,105 +1,124 @@
 @section('footer')
 
-    <!-- Footer Start -->
-    <div class="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-widget">
-                        <h2>Get in Touch</h2>
-                        <div class="contact-info">
-                            <p><i class="fa fa-map-marker"></i>123 E Store, Los Angeles, USA</p>
-                            <p><i class="fa fa-envelope"></i>email@example.com</p>
-                            <p><i class="fa fa-phone"></i>+123-456-7890</p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-widget">
-                        <h2>Follow Us</h2>
-                        <div class="contact-info">
-                            <div class="social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                                <a href=""><i class="fab fa-youtube"></i></a>
+
+    <!-- footer -->
+    <footer id="aa-footer">
+        <!-- footer bottom -->
+        <div class="aa-footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="aa-footer-top-area">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="aa-footer-widget">
+                                        <h3>Main Menu</h3>
+                                        <ul class="aa-footer-nav">
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">Our Services</a></li>
+                                            <li><a href="#">Our Products</a></li>
+                                            <li><a href="#">About Us</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="aa-footer-widget">
+                                        <div class="aa-footer-widget">
+                                            <h3>Knowledge Base</h3>
+                                            <ul class="aa-footer-nav">
+                                                <li><a href="#">Delivery</a></li>
+                                                <li><a href="#">Returns</a></li>
+                                                <li><a href="#">Services</a></li>
+                                                <li><a href="#">Discount</a></li>
+                                                <li><a href="#">Special Offer</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="aa-footer-widget">
+                                        <div class="aa-footer-widget">
+                                            <h3>Useful Links</h3>
+                                            <ul class="aa-footer-nav">
+                                                <li><a href="#">Site Map</a></li>
+                                                <li><a href="#">Search</a></li>
+                                                <li><a href="#">Advanced Search</a></li>
+                                                <li><a href="#">Suppliers</a></li>
+                                                <li><a href="#">FAQ</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="aa-footer-widget">
+                                        <div class="aa-footer-widget">
+                                            <h3>Contact Us</h3>
+                                            <address>
+                                                <p> 25 Astor Pl, NY 10003, USA</p>
+                                                <p><span class="fa fa-phone"></span>+1 212-982-4589</p>
+                                                <p><span class="fa fa-envelope"></span>dailyshop@gmail.com</p>
+                                            </address>
+                                            <div class="aa-footer-social">
+                                                <a href="#"><span class="fa fa-facebook"></span></a>
+                                                <a href="#"><span class="fa fa-twitter"></span></a>
+                                                <a href="#"><span class="fa fa-google-plus"></span></a>
+                                                <a href="#"><span class="fa fa-youtube"></span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-widget">
-                        <h2>Company Info</h2>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Condition</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-widget">
-                        <h2>Purchase Info</h2>
-                        <ul>
-                            <li><a href="#">Pyament Policy</a></li>
-                            <li><a href="#">Shipping Policy</a></li>
-                            <li><a href="#">Return Policy</a></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
-
-            <div class="row payment align-items-center">
-                <div class="col-md-6">
-                    <div class="payment-method">
-                        <h2>We Accept:</h2>
-                        <img src="img/payment-method.png" alt="Payment Method" />
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="payment-security">
-                        <h2>Secured By:</h2>
-                        <img src="img/godaddy.svg" alt="Payment Security" />
-                        <img src="img/norton.svg" alt="Payment Security" />
-                        <img src="img/ssl.svg" alt="Payment Security" />
+        </div>
+        <!-- footer-bottom -->
+        <div class="aa-footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="aa-footer-bottom-area">
+                            <p>Designed by <a href="http://www.markups.io/">MarkUps.io</a></p>
+                            <div class="aa-footer-payment">
+                                <span class="fa fa-cc-mastercard"></span>
+                                <span class="fa fa-cc-visa"></span>
+                                <span class="fa fa-paypal"></span>
+                                <span class="fa fa-cc-discover"></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Footer End -->
+    </footer>
+    <!-- / footer -->
 
-    <!-- Footer Bottom Start -->
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 copyright">
-                    <p>Copyright &copy; <a href="https://htmlcodex.com">HTML Codex</a>. All Rights Reserved</p>
-                </div>
 
-                <div class="col-md-6 template-by">
-                    <p>Template By <a href="https://htmlcodex.com">HTML Codex</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer Bottom End -->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{url('frontend-assets/js/bootstrap.js')}}"></script>
+    <!-- SmartMenus jQuery plugin -->
+    <script type="text/javascript" src="{{url('frontend-assets/js/jquery.smartmenus.js')}}"></script>
+    <!-- SmartMenus jQuery Bootstrap Addon -->
+    <script type="text/javascript" src="{{url('frontend-assets/js/jquery.smartmenus.bootstrap.js')}}"></script>
+    <!-- To Slider JS -->
+    <script src="{{url('frontend-assets/js/sequence.js')}}"></script>
+    <script src="{{url('frontend-assets/js/sequence-theme.modern-slide-in.js')}}"></script>
+    <!-- Product view slider -->
+    <script type="text/javascript" src="{{url('frontend-assets/js/jquery.simpleGallery.js')}}"></script>
+    <script type="text/javascript" src="{{url('frontend-assets/js/jquery.simpleLens.js')}}"></script>
+    <!-- slick slider -->
+    <script type="text/javascript" src="{{url('frontend-assets/js/slick.js')}}"></script>
+    <!-- Price picker slider -->
+    <script type="text/javascript" src="{{url('frontend-assets/js/nouislider.js')}}"></script>
+    <!-- Custom js -->
+    <script src="{{url('frontend-assets/js/custom.js')}}"></script>
 
-    <!-- Back to Top -->
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="{{url('frontend-assets/lib/easing/easing.min.js')}}"></script>
-    <script src="{{url('frontend-assets/lib/slick/slick.min.js')}}"></script>
-
-    <!-- Template Javascript -->
-    <script src="{{url('frontend-assets/js/main.js')}}"></script>
     </body>
     </html>
+
 @endsection
