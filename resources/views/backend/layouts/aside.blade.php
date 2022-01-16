@@ -35,6 +35,12 @@
 
                             </ul>
                         </li>
+                        <li><a><i class="fa fa-folder"></i> Attribute <span class="fa fa-chevron-down"></span></a>
+                            <ul class="nav child_menu">
+                                <li><a href="{{route('admin-attribute.index')}}">Manage Attribute</a></li>
+
+                            </ul>
+                        </li>
 
                     </ul>
                 </div>
